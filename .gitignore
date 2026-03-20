@@ -1,0 +1,33 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyMC / ArviZ trace outputs
+traces/
+*.nc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data outputs
+data/*.csv
+!data/generate_data.py
